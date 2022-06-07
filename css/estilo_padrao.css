@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Rock Salt", cursive
+}
+
+img.imgLogo {
+    height: 45px;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
