@@ -4,6 +4,14 @@ body {
     font-family: "Rock Salt", cursive
 }
 
+div.container {
+    width: 1300px;
+    padding: 10px;
+    margin: 30px auto;
+    color: white;
+    border: solid #96AF9B;
+}
+
 img.imgLogo {
     height: 45px;
     margin-right: 5px;
@@ -15,8 +23,37 @@ img.imgLogo {
     align-items: center;
 }
 
+.panel-default {
+    text-align: center;
+}
+
+.panel-heading {
+    font-size: 35px;
+}
+
+.panel-body {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 1px;
+}
+
+table, th, td {
+    border:1px solid #3F3825;
+    text-align: center;
+    width: 1000px;
+}
+
+a {
+    color: white;
+    font-size: 18px;
 }
